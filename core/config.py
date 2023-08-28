@@ -1,0 +1,1 @@
+INVENTORY_SERVICE_URL = "http://direccion-del-servicio-de-inventario:8000"
