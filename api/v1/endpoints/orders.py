@@ -6,7 +6,7 @@ router = APIRouter()
 
 @router.get("/")
 def read_orders():
-    response = requests.get(f"{INVENTORY_SERVICE_URL}/orders")
+    response = requests.get(f"{INVENTORY_SERVICE_URL}/orders/")
     return response.json()
 
 @router.post("/")

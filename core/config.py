@@ -1,1 +1,1 @@
-INVENTORY_SERVICE_URL = "http://direccion-del-servicio-de-inventario:8000"
+INVENTORY_SERVICE_URL = "http://localhost:4000"
