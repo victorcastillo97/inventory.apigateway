@@ -15,14 +15,14 @@ Este repositorio contiene el código para el API Gateway del proyecto de gestió
 ## Instalación y Uso
 
 1. **Clonar el repositorio**
-git clone https://github.com/<tu-usuario>/inventory.apigateway.git
-cd inventory.apigateway
+`git clone https://github.com/<tu-usuario>/inventory.apigateway.git`
+`cd inventory.apigateway`
 
 2.  **Instalar dependencias**
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 3. **Ejecutar la aplicación**
-uvicorn app:app --reload
+`uvicorn app:app --reload`
 
 
 El API estará disponible en `http://localhost:8000`.
@@ -32,10 +32,10 @@ El API estará disponible en `http://localhost:8000`.
 El proyecto incluye un `Dockerfile` para construir una imagen y desplegarla en contenedores. Para construir y ejecutar el proyecto con Docker, sigue estos pasos:
 
 1. **Construir la imagen**
-make build.image
+`make build.image`
 
 2. **Ejecutar el contenedor**
-make run.app
+`make run.app`
 
 De nuevo, el API estará disponible en `http://localhost:8000`.
 
